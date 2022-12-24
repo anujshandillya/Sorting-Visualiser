@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(48, 58, 58);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background{
+    background-color: rgb(48, 58, 58);
+    height: 100%;
+}
+
+#container{
+	display: flex;
+	margin: 0 auto;   
+ 	width: -webkit-max-content;
+	height: 60%;
+    background-color: rgb(48, 58, 58);
+    vertical-align: text-bottom;
+}
+
+.refresh{
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    vertical-align: center;
+}
+
+.range{
+    margin: auto;
+}
+
+label{
+    color: white;
+}
+
+.option__bar{
+    background: rgb(32, 32, 32);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    height: 100px;
+}
+#bars{
+    -webkit-appearance: none;
+    background: #34495E;
+    border-radius: 10px;
+    height: 10px;
+}
+#bars::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+#bars:hover::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: yellow;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+#delay{
+    -webkit-appearance: none;
+    background: #34495E;
+    border-radius: 10px;
+    height: 10px;
+}
+#delay::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+#delay:hover::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: yellow;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+#d{
+    color: white;
+}
+#b{
+    color: white;
+}
+
+/* .range{
+	justify-content: space-evenly;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: wrap;
+} */
+
+.sorting__options>input{
+    justify-content: space-evenly;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: wrap;
+}
+
+h1{
+    color: White;
+}
+
+.bar{
+	border: 0.05vw solid black;
+	width:0.6vw;
+	margin:0.1vw;
+	background-color: #a3a3a3;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* .ran{
+    color: #5fa5ff;
+    color: rgb(48, 58, 58);
+    color: #97ff37;
+    color: rgb(44, 62, 226);
+} */
